@@ -1,6 +1,6 @@
 tasks:
-  - init: Install numpy
-    command: pip install numpy
+  - name: Install numpy
+    init: pip install numpy
 ports:
   - port: 8000
     onOpen: open-preview
